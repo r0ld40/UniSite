@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(113, 206, 243);
+}
+
+header{
+    border: 3px solid green;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+main{
+    border: 3px solid blue;
+    height: 200px;
+    padding: 6px;
+    margin-bottom: 8px;
+}
+
+section{
+    border: 2px solid black;
+    height: 200px;
+}
+
+footer{
+    width: 100%;
+    border: 3px solid red;
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+.direitos{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+}

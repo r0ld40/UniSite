@@ -1,0 +1,1 @@
+window.alert('[ALERT] Este site mantem todos os direitos reservados')
