@@ -14,7 +14,7 @@ body{
 }
 
 main{
-    height: 900px;
+    height: 100vh;
 }
 
 section{
@@ -25,18 +25,18 @@ section{
     border-radius: 8px;
     box-shadow: 100%;
     padding: 4px;
+    margin-bottom: 15px;
 }
 
 footer{
     background-color: firebrick;
     text-align: center;
     padding: 10px;
-    position: relative;
-    bottom: 0;
     width: auto;
     color: white;
     text-align: center;
     font-size: 13px;
+    margin-top: 5px;
 }
 
 h1{
@@ -57,13 +57,13 @@ p{
 
 /* Layout */
 
-.area-cabeca{
+#area-cabeca{
     background-color: firebrick;
     padding: 5px;
     text-align: center;
 }
 
-.area-logo, .area-menu{
+#area-logo, #area-menu{
     padding: 8px;
 }
 
@@ -73,10 +73,17 @@ p{
     font-size: 18px;
 }
 
-.autoria{
+#autoria{
     text-align: center;
     font-weight: bold;
     font-size: 12px;
+}
+
+#rodape{
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 15px;
 }
 
 a{
