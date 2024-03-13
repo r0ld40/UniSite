@@ -1,45 +1,99 @@
 @charset "UTF-8";
 
-body{
-    background-color: rgb(113, 206, 243);
+/* Resetando config padrao do site  */
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-header{
-    border: 3px solid green;
-    height: 100px;
-    margin-bottom: 8px;
+/* Configs gerais */
+
+body{
+    background-color: lightgray;
 }
 
 main{
-    border: 3px solid blue;
-    height: 200px;
-    padding: 6px;
-    margin-bottom: 8px;
+    height: 900px;
 }
 
 section{
-    border: 2px solid black;
-    height: 200px;
+    margin: 10px 15px;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 100%;
+    padding: 4px;
 }
 
 footer{
-    width: 100%;
-    border: 3px solid red;
-    color: black;
+    background-color: firebrick;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: auto;
+    color: white;
     text-align: center;
     font-size: 13px;
 }
 
 h1{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
+}
+
+p{
+    text-align: justify;
+    padding: 3px;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* Layout */
+
+.area-cabeca{
+    background-color: firebrick;
+    padding: 5px;
+    text-align: center;
+}
+
+.area-logo, .area-menu{
+    padding: 8px;
 }
 
 .direitos{
+    text-align: center;
     font-weight: bold;
     font-size: 18px;
 }
 
-.flex{
-    display: flex;
+.autoria{
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+a{
+    color: white;
+    font-size: 17px;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover, a:active{
+    background-color: white;
+    color: firebrick;
+}
+
+table{
+    border: 1px solid;
 }
