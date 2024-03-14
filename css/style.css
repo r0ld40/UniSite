@@ -14,16 +14,14 @@ body{
 }
 
 main{
-    height: 100vh;
+    min-height: 785px;
 }
 
 section{
-    margin: 10px 15px;
+    margin: 10px 20px;
     width: auto;
-    height: auto;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 100%;
     padding: 4px;
     margin-bottom: 15px;
 }
@@ -34,7 +32,6 @@ footer{
     padding: 10px;
     width: auto;
     color: white;
-    text-align: center;
     font-size: 13px;
     margin-top: 5px;
 }
@@ -99,8 +96,4 @@ a{
 a:hover, a:active{
     background-color: white;
     color: firebrick;
-}
-
-table{
-    border: 1px solid;
 }
